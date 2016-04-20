@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <!--    <display-name>javaWeb</display-name>
+        <welcome-file-list>
+            <welcome-file>index.html</welcome-file>
+            <welcome-file>index.htm</welcome-file>
+            <welcome-file>index.jsp</welcome-file>
+            <welcome-file>default.html</welcome-file>
+            <welcome-file>default.htm</welcome-file>
+            <welcome-file>default.jsp</welcome-file>
+            <welcome-file>Lesson1.jsp</welcome-file>
+            <welcome-file>Lesson2.jsp</welcome-file>
+            <welcome-file>Lesson3.jsp</welcome-file>
+            <welcome-file>Lesson4.jsp</welcome-file>
+        </welcome-file-list>-->
+    //lesson 4
+    <servlet>
+        <servlet-name>test</servlet-name>
+        <servlet-class>com.Lesson4.testServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>test</servlet-name>
+        <url-pattern>/test</url-pattern>
+    </servlet-mapping>
+
+    //lesson 5
+    <servlet>
+        <servlet-name>form</servlet-name>
+        <servlet-class>com.Lesson5.formServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>form</servlet-name>
+        <url-pattern>/form</url-pattern>
+    </servlet-mapping>
+</web-app>
